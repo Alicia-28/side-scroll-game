@@ -53,7 +53,7 @@ function fly () {
     }
 }
 function jump () {
-    Mr_Rat.ay += 7.6
+    Mr_Rat.ay += 0
 }
 function win_or_lose () {
     if (Mr_Rat.tileKindAt(TileDirection.Left, assets.tile`tile8`)) {
@@ -108,7 +108,7 @@ let walk_l: animation.Animation = null
 let Seagull: Sprite = null
 let Mr_Rat: Sprite = null
 info.startCountdown(60)
-tiles.setTilemap(tilemap`level2`)
+tiles.setTilemap(tilemap`level3`)
 Mr_Rat = sprites.create(img`
     . . . f f f . . . f f f . . . . 
     . . . f 4 4 . . . 4 4 f . . . . 
