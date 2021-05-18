@@ -102,24 +102,6 @@ function walk_right () {
         `)
     animation.setAction(Mr_Rat, ActionKind.Walking)
     animation.attachAnimation(Mr_Rat, walk_r)
-    walk_r.addAnimationFrame(img`
-        . . . 3 c f f f f f 3 3 . . . . 
-        . . . 3 f e e e e e f 3 . . . . 
-        . . 3 c f 1 1 e 1 1 f 3 . . . . 
-        . . 3 c f 1 f e f 1 f 3 . . . . 
-        . . 3 c f d e e e d f 3 . . . . 
-        . . . 3 f e e f e e f 3 . . . . 
-        . . . 3 c f f f f f 3 3 . . . . 
-        . . . 3 3 c c c c 3 3 3 . . . . 
-        . . . 3 3 3 3 c b 3 3 3 . . . . 
-        . . . 3 3 3 3 c b 3 3 3 . . . . 
-        . . . 3 3 3 3 3 c b 3 3 . . . . 
-        . . . . 3 3 3 3 c b 3 . . . . . 
-        . . . . 3 3 3 3 3 c b . . . . . 
-        . . . . 3 3 3 3 3 3 b . . . . . 
-        . . . . 3 3 3 3 3 3 3 . . . . . 
-        . . . . . . . . . . . . . . . . 
-        `)
 }
 let walk_r: animation.Animation = null
 let walk_l: animation.Animation = null
