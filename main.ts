@@ -107,7 +107,7 @@ let walk_r: animation.Animation = null
 let walk_l: animation.Animation = null
 let Seagull: Sprite = null
 let Mr_Rat: Sprite = null
-info.startCountdown(60)
+info.startCountdown(120)
 tiles.setTilemap(tilemap`level3`)
 Mr_Rat = sprites.create(img`
     . . . f f f . . . f f f . . . . 
